@@ -1,12 +1,23 @@
-h1
-{
-color: #009;
-text-align: center;
-text-decoration: overline;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-p{
-font-size: 144;
+h1 {
+    color: #009;
+    text-align: center;
+    text-decoration: overline;
+}
 
+p {
+    font-size: 2em;
+    font-family: "Times New Roman", Times, serif;
+    color: #009;
+    text-align: center;
+    font-style: italic;
+}
 
+.me {
+    background: aquamarine;
 }
