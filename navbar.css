@@ -1,0 +1,48 @@
+nav {
+    height: 2em;
+}
+
+nav ul {
+    display: flex;
+    background-color: #6F2232;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+    font-size: 2em;
+    height: 10%;
+    width: 30%;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    background-color: #C3073F;
+    text-align: center;
+    border-left: 2px solid #1A1A1D;
+}
+
+li a {
+    padding: 14px 16px;
+}
+
+ul li:hover {
+    background-color: #950740;
+}
+
+footer {
+    background-color: #1A1A1D;
+    color: white;
+}
+
+.first_child {
+    background-color: #950740;
+}
